@@ -1,0 +1,30 @@
+# Synthetic street map for the offline demo. Areas are rectangles in frame
+# pixels: [x1, y1, x2, y2]. Nothing here describes a real street or camera.
+trechos:
+  - id: rot-2h
+    nome: Rua Ficticia, lado par (rotativo 2h)
+    regra: rotativo
+    janela_minutos: 120
+    area: [0, 0, 300, 200]
+
+  - id: rot-5h
+    nome: Rua Ficticia, lado impar (rotativo 5h)
+    regra: rotativo
+    janela_minutos: 300
+    area: [300, 0, 600, 200]
+
+  - id: carga
+    nome: Rua Ficticia, doca (carga e descarga 30 min)
+    regra: carga_descarga
+    janela_minutos: 30
+    area: [600, 0, 900, 200]
+
+  - id: proibido
+    nome: Rua Ficticia, esquina (proibido estacionar)
+    regra: proibido
+    area: [0, 200, 300, 400]
+
+  - id: pisca
+    nome: Rua Ficticia, embarque (so com pisca-alerta)
+    regra: so_pisca
+    area: [300, 200, 600, 400]

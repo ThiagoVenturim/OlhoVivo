@@ -1,0 +1,32 @@
+{
+  "_nota": "Dados sinteticos. As placas FAKE0NN nao seguem o formato brasileiro e nao correspondem a veiculos reais.",
+  "deteccoes": [
+    {"id_track": "t1", "placa": "FAKE001", "bbox": [100, 60, 200, 140], "timestamp": "2026-01-05T08:00:00"},
+    {"id_track": "t1", "placa": "FAKE001", "bbox": [100, 60, 200, 140], "timestamp": "2026-01-05T09:15:00"},
+    {"id_track": "t1", "placa": "FAKE001", "bbox": [100, 60, 200, 140], "timestamp": "2026-01-05T10:30:00"},
+
+    {"id_track": "t2", "placa": "FAKE002", "bbox": [210, 60, 290, 140], "timestamp": "2026-01-05T08:00:00"},
+    {"id_track": "t2", "placa": "FAKE002", "bbox": [210, 60, 290, 140], "timestamp": "2026-01-05T09:30:00"},
+
+    {"id_track": "t3", "placa": "FAKE003", "bbox": [400, 60, 500, 140], "timestamp": "2026-01-05T08:00:00"},
+    {"id_track": "t3", "placa": "FAKE003", "bbox": [400, 60, 500, 140], "timestamp": "2026-01-05T12:00:00"},
+
+    {"id_track": "t4", "placa": "FAKE004", "bbox": [100, 260, 200, 340], "timestamp": "2026-01-05T09:00:00"},
+    {"id_track": "t4", "placa": "FAKE004", "bbox": [100, 260, 200, 340], "timestamp": "2026-01-05T09:10:00"},
+
+    {"id_track": "t5", "placa": "FAKE005", "bbox": [20, 260, 120, 340], "timestamp": "2026-01-05T09:00:00"},
+    {"id_track": "t5", "placa": "FAKE005", "bbox": [180, 260, 280, 340], "timestamp": "2026-01-05T09:00:20"},
+
+    {"id_track": "t6", "placa": "FAKE006", "bbox": [320, 260, 420, 340], "timestamp": "2026-01-05T09:00:00", "tem_pisca": false},
+    {"id_track": "t6", "placa": "FAKE006", "bbox": [320, 260, 420, 340], "timestamp": "2026-01-05T09:05:00", "tem_pisca": false},
+
+    {"id_track": "t7", "placa": "FAKE007", "bbox": [460, 260, 560, 340], "timestamp": "2026-01-05T09:00:00", "tem_pisca": true},
+    {"id_track": "t7", "placa": "FAKE007", "bbox": [460, 260, 560, 340], "timestamp": "2026-01-05T09:05:00", "tem_pisca": false},
+
+    {"id_track": "t8", "placa": "FAKE008", "bbox": [620, 60, 720, 140], "timestamp": "2026-01-05T09:00:00"},
+    {"id_track": "t8", "placa": "FAKE008", "bbox": [620, 60, 720, 140], "timestamp": "2026-01-05T09:45:00"},
+
+    {"id_track": "t9", "placa": null, "bbox": [760, 60, 860, 140], "timestamp": "2026-01-05T09:00:00"},
+    {"id_track": "t9", "placa": null, "bbox": [760, 60, 860, 140], "timestamp": "2026-01-05T09:20:00"}
+  ]
+}
